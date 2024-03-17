@@ -11,8 +11,7 @@ const RecipeCards = ({handleWantToCook}) => {
             .then(data => setRecipeCards(data))
     }, [])
     return (
-        <div>
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='md:w-[700px] grid grid-cols-1 md:grid-cols-2 gap-6 col-span-2'>
                 {
                     recipeCards.map((recipeCard, index) => <Recipecard
                         key={index}
@@ -21,7 +20,6 @@ const RecipeCards = ({handleWantToCook}) => {
                     ></Recipecard>)
                 }
             </div>
-        </div>
     );
 };
 

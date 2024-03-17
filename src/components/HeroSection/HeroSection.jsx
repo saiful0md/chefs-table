@@ -8,8 +8,8 @@ const HeroSection = () => {
                         <h1 className="mb-5 md:text-5xl font-lexend font-bold">Discover an exceptional cooking class tailored for you!</h1>
                         <p className="mb-5">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
                         <div className="flex gap-6 items-center justify-center">
-                        <button className="btn bg-[#0BE58A] rounded-3xl">Explore Now</button>
-                        <button className="btn btn-ghost border border-white rounded-3xl">Our Feedback</button>
+                        <button className="btn bg-[#0BE58A] rounded-3xl font-lexend">Explore Now</button>
+                        <button className="btn btn-ghost border border-white rounded-3xl font-lexend">Our Feedback</button>
                         </div>
                     </div>
                 </div>
